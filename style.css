@@ -1,0 +1,57 @@
+*{
+    color: white;
+    text-align: right;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(104, 104, 196);
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.container{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    flex-grow: wrap;
+    flex-wrap: wrap;
+}
+
+.pray{
+    margin: auto;
+    width:150px;
+    height: 180px;
+    background-color: antiquewhite;
+}
+
+.name{
+    padding: 10px 5px;
+    height: 50px;
+    background-color: rgb(183, 116, 246);
+    font-size: 25px;
+}
+
+.time{
+  padding-top:30px;
+    height: 130px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.options{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.options select{
+    width: 200px;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+
+}
